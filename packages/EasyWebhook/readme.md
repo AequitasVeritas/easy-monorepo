@@ -3,7 +3,14 @@ title: Introduction
 weight: 0
 ---eonx_docs---
 
-Send webhooks asynchronously, retry if it fails, and persist them into the store of your choice, all that out of the box!
+# EasyWebhook
+
+- Send webhooks asynchronously
+- Retry strategy in case of failure
+- Persist results to the store of your choice
+- Handle concurrency automatically (no webhook will be sent twice)
+
+All that out of the box!
 
 ### Require package (Composer)
 
